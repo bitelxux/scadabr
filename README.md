@@ -2,7 +2,7 @@ docker run --privileged -p8080:8080 -itd bitelxux/scadabr
 
 or something like
 
-docker run --privileged --name scada -h openstack --name scada --net internal --ip 10.1.1.50 -v /home/cnn/work/scada/database:/root/database -p8080:8080 -itd bitelxux/scadabr
+docker run --privileged --name scada -h openstack --net internal --ip 10.1.1.50 -v /home/cnn/work/scada/database:/root/database -p8080:8080 -itd bitelxux/scadabr
 
 # Quick start. Mysql datasource
 
