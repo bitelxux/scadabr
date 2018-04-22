@@ -5,7 +5,7 @@ docker run --privileged --name scada -h openstack --name scada --net internal --
 Create a new MySQL datasource:
 
 *Name               ScadaBR 
-*Export ID (XID)	   ScadaBR
+*Export ID (XID)    ScadaBR
 *Update period      5
 *Driver class name  com.mysql.jdbc.Driver
 *Connection string  jdbc:mysql://localhost:3306/scadabr
